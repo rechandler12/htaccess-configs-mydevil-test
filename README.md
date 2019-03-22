@@ -1,6 +1,6 @@
 # [Test Server Configs](https://github.com/h5bp/server-configs-test)
 
-[![Build Status](https://img.shields.io/travis/h5bp/server-configs-test/master.svg)](https://travis-ci.org/h5bp/server-configs-test)
+[![Build Status](https://travis-ci.com/rechandler12/htaccess-configs-mydevil-test.svg?branch=master)](https://travis-ci.com/rechandler12/htaccess-configs-mydevil-test)
 
 **Test Server Configs** is a collection of test scripts for server validation.
 
