@@ -46,6 +46,48 @@
         }
       },
       {
+        "target": "test.csv",
+        "responseHeaders": {
+          "Content-Type": "text/csv"
+        }
+      },
+      {
+        "target": "test.doc",
+        "responseHeaders": {
+          "Content-Type": "application/msword"
+        }
+      },
+      {
+        "target": "test.docm",
+        "responseHeaders": {
+          "Content-Type": "application/vnd.ms-word.document.macroenabled.12"
+        }
+      },
+      {
+        "target": "test.docx",
+        "responseHeaders": {
+          "Content-Type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      },
+      {
+        "target": "test.dot",
+        "responseHeaders": {
+          "Content-Type": "application/msword"
+        }
+      },
+      {
+        "target": "test.dotm",
+        "responseHeaders": {
+          "Content-Type": "application/vnd.ms-word.template.macroenabled.12"
+        }
+      },
+      {
+        "target": "test.dotx",
+        "responseHeaders": {
+          "Content-Type": "application/vnd.openxmlformats-officedocument.wordprocessingml.template"
+        }
+      },
+      {
         "target": "test.eot",
         "requestHeaders": {
           "Origin": "http://"
@@ -168,13 +210,109 @@
         }
       },
       {
+        "target": "test.mdb",
+        "responseHeaders": {
+          "Content-Type": "application/vnd.ms-access"
+        }
+      },
+      {
         "target": "test.mjs",
         "responseHeaders": {
           "Cache-Control": "max-age=31536000, no-transform",
           "Content-Type": "text/javascript; charset=utf-8"
         }
       },
+      {
+        "target": "test.mk3d",
+        "responseHeaders": {
+          "Content-Type": "video/x-matroska"
+        }
+      },
+      {
+        "target": "test.mks",
+        "responseHeaders": {
+          "Content-Type": "video/x-matroska"
+        }
+      },
+      {
+        "target": "test.mkv",
+        "responseHeaders": {
+          "Content-Type": "video/x-matroska"
+        }
+      },
       "test.mp4",
+      {
+        "target": "test.mpp",
+        "responseHeaders": {
+          "Content-Type": "application/vnd.ms-project"
+        }
+      },
+      {
+        "target": "test.mpt",
+        "responseHeaders": {
+          "Content-Type": "application/vnd.ms-project"
+        }
+      },
+      {
+        "target": "test.odb",
+        "responseHeaders": {
+          "Content-Type": "application/vnd.oasis.opendocument.database"
+        }
+      },
+      {
+        "target": "test.odc",
+        "responseHeaders": {
+          "Content-Type": "application/vnd.oasis.opendocument.chart"
+        }
+      },
+      {
+        "target": "test.odf",
+        "responseHeaders": {
+          "Content-Type": "application/vnd.oasis.opendocument.formula"
+        }
+      },
+      {
+        "target": "test.odft",
+        "responseHeaders": {
+          "Content-Type": "application/vnd.oasis.opendocument.formula-template"
+        }
+      },
+      {
+        "target": "test.odg",
+        "responseHeaders": {
+          "Content-Type": "application/vnd.oasis.opendocument.graphics"
+        }
+      },
+      {
+        "target": "test.odi",
+        "responseHeaders": {
+          "Content-Type": "application/vnd.oasis.opendocument.image"
+        }
+      },
+      {
+        "target": "test.odm",
+        "responseHeaders": {
+          "Content-Type": "application/vnd.oasis.opendocument.text-master"
+        }
+      },
+      {
+        "target": "test.odp",
+        "responseHeaders": {
+          "Content-Type": "application/vnd.oasis.opendocument.presentation"
+        }
+      },
+      {
+        "target": "test.ods",
+        "responseHeaders": {
+          "Content-Type": "application/vnd.oasis.opendocument.spreadsheet"
+        }
+      },
+      {
+        "target": "test.odt",
+        "responseHeaders": {
+          "Content-Type": "application/vnd.oasis.opendocument.text"
+        }
+      },
       {
         "target": "test.oex",
         "responseHeaders": {
@@ -191,12 +329,54 @@
         }
       },
       {
+        "target": "test.otc",
+        "responseHeaders": {
+          "Content-Type": "application/vnd.oasis.opendocument.chart-template"
+        }
+      },
+      {
         "target": "test.otf",
         "requestHeaders": {
           "Origin": "http://"
         },
         "responseHeaders": {
           "Access-Control-Allow-Origin": "*"
+        }
+      },
+      {
+        "target": "test.otg",
+        "responseHeaders": {
+          "Content-Type": "application/vnd.oasis.opendocument.graphics-template"
+        }
+      },
+      {
+        "target": "test.oth",
+        "responseHeaders": {
+          "Content-Type": "application/vnd.oasis.opendocument.text-web"
+        }
+      },
+      {
+        "target": "test.oti",
+        "responseHeaders": {
+          "Content-Type": "application/vnd.oasis.opendocument.image-template"
+        }
+      },
+      {
+        "target": "test.otp",
+        "responseHeaders": {
+          "Content-Type": "application/vnd.oasis.opendocument.presentation-template"
+        }
+      },
+      {
+        "target": "test.ots",
+        "responseHeaders": {
+          "Content-Type": "application/vnd.oasis.opendocument.spreadsheet-template"
+        }
+      },
+      {
+        "target": "test.ott",
+        "responseHeaders": {
+          "Content-Type": "application/vnd.oasis.opendocument.text-template"
         }
       },
       "test.pdf",
@@ -207,6 +387,66 @@
         },
         "responseHeaders": {
           "Access-Control-Allow-Origin": "*"
+        }
+      },
+      {
+        "target": "test.pot",
+        "responseHeaders": {
+          "Content-Type": "application/vnd.ms-powerpoint"
+        }
+      },
+      {
+        "target": "test.potm",
+        "responseHeaders": {
+          "Content-Type": "application/vnd.ms-powerpoint.template.macroenabled.12"
+        }
+      },
+      {
+        "target": "test.potx",
+        "responseHeaders": {
+          "Content-Type": "application/vnd.openxmlformats-officedocument.presentationml.template"
+        }
+      },
+      {
+        "target": "test.ppam",
+        "responseHeaders": {
+          "Content-Type": "application/vnd.ms-powerpoint.addin.macroenabled.12"
+        }
+      },
+      {
+        "target": "test.pps",
+        "responseHeaders": {
+          "Content-Type": "application/vnd.ms-powerpoint"
+        }
+      },
+      {
+        "target": "test.ppsm",
+        "responseHeaders": {
+          "Content-Type": "application/vnd.ms-powerpoint.slideshow.macroenabled.12"
+        }
+      },
+      {
+        "target": "test.ppsx",
+        "responseHeaders": {
+          "Content-Type": "application/vnd.openxmlformats-officedocument.presentationml.slideshow"
+        }
+      },
+      {
+        "target": "test.ppt",
+        "responseHeaders": {
+          "Content-Type": "application/vnd.ms-powerpoint"
+        }
+      },
+      {
+        "target": "test.pptm",
+        "responseHeaders": {
+          "Content-Type": "application/vnd.ms-powerpoint.presentation.macroenabled.12"
+        }
+      },
+      {
+        "target": "test.pptx",
+        "responseHeaders": {
+          "Content-Type": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
         }
       },
       {
@@ -222,9 +462,27 @@
         }
       },
       {
+        "target": "test.rtx",
+        "responseHeaders": {
+          "Content-Type": "text/richtext"
+        }
+      },
+      {
         "target": "test.safariextz",
         "responseHeaders": {
           "Content-Type": false
+        }
+      },
+      {
+        "target": "test.sldm",
+        "responseHeaders": {
+          "Content-Type": "application/vnd.ms-powerpoint.slide.macroenabled.12"
+        }
+      },
+      {
+        "target": "test.sldx",
+        "responseHeaders": {
+          "Content-Type": "application/vnd.openxmlformats-officedocument.presentationml.slide"
         }
       },
       {
@@ -247,6 +505,30 @@
       },
       "test.swf",
       {
+        "target": "test.tar",
+        "responseHeaders": {
+          "Content-Type": "application/x-tar"
+        }
+      },
+      {
+        "target": "test.tif",
+        "requestHeaders": {
+          "Origin": "http://"
+        },
+        "responseHeaders": {
+          "Access-Control-Allow-Origin": "*"
+        }
+      },
+      {
+        "target": "test.tiff",
+        "requestHeaders": {
+          "Origin": "http://"
+        },
+        "responseHeaders": {
+          "Access-Control-Allow-Origin": "*"
+        }
+      },
+      {
         "target": "test.ttc",
         "requestHeaders": {
           "Origin": "http://"
@@ -264,7 +546,12 @@
           "Access-Control-Allow-Origin": "*"
         }
       },
-      "test.txt",
+      {
+        "target": "test.txt",
+        "responseHeaders": {
+          "Cache-Control": "max-age=86400, no-transform"
+        }
+      },
       "test.vcard",
       {
         "target": "test.vcf",
@@ -277,6 +564,24 @@
         "target": "test.wasm",
         "responseHeaders": {
           "Cache-Control": "max-age=31536000, no-transform"
+        }
+      },
+      {
+        "target": "test.wav",
+        "responseHeaders": {
+          "Content-Type": "audio/wav"
+        }
+      },
+      {
+        "target": "test.wave",
+        "responseHeaders": {
+          "Content-Type": "audio/wav"
+        }
+      },
+      {
+        "target": "test.wax",
+        "responseHeaders": {
+          "Content-Type": "audio/x-ms-wax"
         }
       },
       {
@@ -303,6 +608,12 @@
         }
       },
       {
+        "target": "test.wma",
+        "responseHeaders": {
+          "Content-Type": "audio/x-ms-wma"
+        }
+      },
+      {
         "target": "test.woff",
         "requestHeaders": {
           "Origin": "http://"
@@ -321,12 +632,96 @@
         }
       },
       {
+        "target": "test.xla",
+        "responseHeaders": {
+          "Content-Type": "application/vnd.ms-excel"
+        }
+      },
+      {
+        "target": "test.xlam",
+        "responseHeaders": {
+          "Content-Type": "application/vnd.ms-excel.addin.macroenabled.12"
+        }
+      },
+      {
+        "target": "test.xlc",
+        "responseHeaders": {
+          "Content-Type": "application/vnd.ms-excel"
+        }
+      },
+      {
+        "target": "test.xlm",
+        "responseHeaders": {
+          "Content-Type": "application/vnd.ms-excel"
+        }
+      },
+      {
+        "target": "test.xls",
+        "responseHeaders": {
+          "Content-Type": "application/vnd.ms-excel"
+        }
+      },
+      {
+        "target": "test.xlsb",
+        "responseHeaders": {
+          "Content-Type": "application/vnd.ms-excel.sheet.binary.macroenabled.12"
+        }
+      },
+      {
+        "target": "test.xlsm",
+        "responseHeaders": {
+          "Content-Type": "application/vnd.ms-excel.sheet.macroenabled.12"
+        }
+      },
+      {
+        "target": "test.xlsx",
+        "responseHeaders": {
+          "Content-Type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        }
+      },
+      {
+        "target": "test.xlt",
+        "responseHeaders": {
+          "Content-Type": "application/vnd.ms-excel"
+        }
+      },
+      {
+        "target": "test.xltm",
+        "responseHeaders": {
+          "Content-Type": "application/vnd.ms-excel.template.macroenabled.12"
+        }
+      },
+      {
+        "target": "test.xltx",
+        "responseHeaders": {
+          "Content-Type": "application/vnd.openxmlformats-officedocument.spreadsheetml.template"
+        }
+      },
+      {
+        "target": "test.xlw",
+        "responseHeaders": {
+          "Content-Type": "application/vnd.ms-excel"
+        }
+      },
+      {
         "target": "test.xml",
         "responseHeaders": {
           "Cache-Control": "max-age=0, no-transform"
         }
       },
-      "test.xpi"
+      "test.xpi",
+      {
+        "target": "test.xsd",
+        "responseHeaders": {
+          "Cache-Control": "max-age=0, no-transform"
+        }
+      },
+      {
+        "target": "test.xsl",
+        "responseHeaders": {
+          "Cache-Control": "max-age=0, no-transform"
+        }
+      }
     ]
   },
   {
