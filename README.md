@@ -1,8 +1,8 @@
-# [Test Server Configs](https://github.com/h5bp/server-configs-test)
+# [Test MyDevil .htaccess Configs](https://github.com/rechandler12/htaccess-configs-mydevil-test)
 
 [![Build Status](https://travis-ci.com/rechandler12/htaccess-configs-mydevil-test.svg?branch=master)](https://travis-ci.com/rechandler12/htaccess-configs-mydevil-test)
 
-**Test Server Configs** is a collection of test scripts for server validation.
+**Test MyDevil .htaccess Configs** is a collection of test scripts for server validation.
 
 
 ## Getting Started
@@ -11,7 +11,7 @@ This repository contains unit tests suites helping validate correctness of a ser
 Some steps are require to make them ready to run.
 
 * Get the files ready by either:
-  * Downloading [latest release](https://github.com/h5bp/server-configs-test/releases/latest) build
+  * Downloading [latest release](https://github.com/rechandler12/htaccess-configs-mydevil-test/releases/latest) build
   * Generating fixtures
     ```
     npm install
@@ -225,9 +225,11 @@ the [guidelines](.github/CONTRIBUTING.md):
 
 ## Acknowledgements
 
+[Test MyDevil .htaccess Configs](https://github.com/rechandler12/htaccess-configs-mydevil-test) is only possible thanks to all the awesome
+[contributors](https://github.com/rechandler12/htaccess-configs-mydevil-test/graphs/contributors)!
+
 [Test Server Configs](https://github.com/h5bp/server-configs-test) is only possible thanks to all the awesome
 [contributors](https://github.com/h5bp/server-configs-test/graphs/contributors)!
-
 
 ## License
 

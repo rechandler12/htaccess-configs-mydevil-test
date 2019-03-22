@@ -1,6 +1,6 @@
-# Contributing to Test Server Configs
+# Contributing to Test MyDevil .htaccess Configs
 
-♥ [Test Server Configs](https://github.com/h5bp/server-configs-test) and
+♥ [Test MyDevil .htaccess Configs](https://github.com/rechandler12/htaccess-configs-mydevil-test) and
 want to get involved? Thanks! We're actively looking for folks interested in
 helping out and there are plenty of ways you can help!
 
@@ -15,7 +15,7 @@ patches and features.
 
 ## Using the issue tracker
 
-The [issue tracker](https://github.com/h5bp/server-configs-test/issues) is
+The [issue tracker](https://github.com/rechandler12/htaccess-configs-mydevil-test/issues) is
 the preferred channel for [bug reports](#bugs), [features requests](#features)
 and [submitting pull requests](#pull-requests), but please respect the following
 restrictions:
@@ -100,11 +100,11 @@ included in the project:
 
    ```bash
    # Clone your fork of the repo into the current directory
-   git clone https://github.com/<your-username>/server-configs-test.git
+   git clone https://github.com/<your-username>/htaccess-configs-mydevil-test.git
    # Navigate to the newly cloned directory
-   cd server-configs-test
+   cd htaccess-configs-mydevil-test
    # Assign the original repo to a remote called "upstream"
-   git remote add upstream https://github.com/h5bp/server-configs-test
+   git remote add upstream https://github.com/rechandler12/htaccess-configs-mydevil-test
    ```
 
 2. If you cloned a while ago, get the latest changes from upstream:
