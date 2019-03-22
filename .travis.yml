@@ -4,22 +4,23 @@ node_js: node
 before_install:
   - curl -sSL https://github.com/loadimpact/k6/releases/download/v0.24.0/k6-v0.24.0-linux64.tar.gz | tar -xz
   - mv k6-v0.24.0-linux64/k6 bin/k6
-
 before_script: npm run build
 
 script:
   - npm run test
-  - ./bin/k6 inspect lib/index.js
+  - "./bin/k6 inspect lib/index.js"
 
-before_deploy: tar czf server-configs-test.tar.gz lib certs fixtures bin/k6 README.md LICENSE
+before_deploy: tar czf htaccess-configs-mydevil-test.tar.gz lib certs fixtures bin/k6 README.md LICENSE
 
 deploy:
   provider: releases
-  api_key: $GITHUB_API_TOKEN
-  file: server-configs-test.tar.gz
+  api_key:
+    secure: 5jLxnF09Pr7xi/TDqM89xrhcm1K4ttyX0DswP7rNJ4Yjc64jv85o/2c9abN6/+xBX4cwbvmHp6OCPhgBhxyqrFJ6yqaKmaYUyXl952TuqBJy9szEBMcUN7RMh4YAL5bpiqa6lV98Ve3szp8aF1RjNz0PuVWojUJIhFvHvF14I5h0In29D9WoOufbKaV0SorWjkK3GudH+9LDdUrXLsVfFCz44jBPVtdFKv8gaU2LfM4E2yGND5BiM74fgRW0cSQmF/FFnToDFcSJtw+94GcjnR9y6+yIvwVHpo9CFTUwrNZfyqe5Yi6TSYbHrCCLh4UUeV1fuPtogzd0Csd3Sr02mqf8L6EjpE4/0qa75RV2zGhqCbe1VokNCaZcgIDkvCKuFqgi9U7N2fbC1k9tqSVnr2jQ9wbNptbUriZpVA/c9EGtf31iOMvUdKKPmOsRB2VnlyxF0lKt24vnUaVr2sfRobxGfpPyJqCJ/yo53YaQuJCWMll10peKxesYZtsdmjSDt19zrQKs8NCsDXCpq9/mYZ6lYWBXhyPAjIuiMLKGsLgtU21U5nsWX+8MNxfY8VhLsCtUuMHxgWAoKqts3PBFGl6Rpja8Y9ckq1pNmmGJsMihDBBAPeg5UA47AK3hxVpzhLqfac28AVEWJQkaVvdvD4fo0GH82gPuFA1/yLAs6tA=
+  file: htaccess-configs-mydevil-test.tar.gz
   skip_cleanup: true
   on:
     tags: true
+    repo: rechandler12/htaccess-configs-mydevil-test
 
 cache:
   directories:
