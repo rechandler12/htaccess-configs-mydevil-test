@@ -11,7 +11,7 @@ script:
   - npm run test
   - ./bin/k6 inspect lib/index.js
 
-before_deploy: tar czf server-configs-test.tar.gz lib certs fixtures bin/k6 README.md LICENSE.txt
+before_deploy: tar czf server-configs-test.tar.gz lib certs fixtures bin/k6 README.md LICENSE
 
 deploy:
   provider: releases
