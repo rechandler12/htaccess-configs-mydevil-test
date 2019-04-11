@@ -765,8 +765,7 @@
         "X-Frame-Options": "DENY",
         "X-Ua-Compatible": "IE=edge",
         "X-Xss-Protection": "1; mode=block",
-        "Content-Type": "text/html; charset=utf-8",
-        "Content-Encoding": "gzip"
+        "Content-Type": "text/html; charset=utf-8"
       }
     },
     "requests": [

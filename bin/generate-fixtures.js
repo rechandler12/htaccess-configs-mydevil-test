@@ -1,8 +1,6 @@
 const path = require('path')
-const zlib = require('zlib')
 const fs = require('fs-extra')
 const mime = require('mime-types')
-const compressible = require('compressible')
 const testSuites = require('../lib/basic-file-access.json')
 
 const errorCb = (err) => {
@@ -15,7 +13,7 @@ for (const suite of testSuites) {
     const type = mime.contentType(file)
     let content = {
       'Content-Type': type || null,
-      'Content-Encoding': compressible(type) ? 'gzip' : null
+      'Content-Encoding': null
     }
     if (suite.default && suite.default.responseHeaders) {
       content = Object.assign(content, suite.default.responseHeaders)
@@ -27,19 +25,8 @@ for (const suite of testSuites) {
   }
 }
 
-fs.outputFile('fixtures/test.svgz', zlib.gzipSync(fs.readFileSync('fixtures/test.svgz')), errorCb)
-
 for (const folder of ['/', '.well-known/', '.well-known/test/']) {
   fs.outputFile(`fixtures/${folder}.hidden_directory/test.html`, '', errorCb)
 }
-
-fs.outputFile('fixtures/test-pre-gzip.js.gz', zlib.gzipSync(JSON.stringify({
-  'Content-Type': 'text/javascript; charset=utf-8',
-  'Content-Encoding': 'gzip'
-})), errorCb)
-fs.outputFile('fixtures/test-pre-brotli.js.br', zlib.brotliCompressSync(JSON.stringify({
-  'Content-Type': 'text/javascript; charset=utf-8',
-  'Content-Encoding': 'br'
-})), errorCb)
 
 fs.copy(path.join(__dirname, 'pre-fixtures'), 'fixtures', errorCb)

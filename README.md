@@ -91,22 +91,6 @@ Check if cache-busting is working.
 
 The requests that contain a hashed-key extension prefix (`[name].[hash].[ext]`) should serve the target file correctly.
 
-#### `concatenation`
-
-Check if concatenation is working.
-
-The requests for `[name].combined.[ext]` should be served as a concatenation of the `a.[ext]` and `b.[ext]` files.
-
-#### `custom-errors`
-
-Check if errors are served as desired.
-
-The erroneous requests should be served with the custom document provided.
-
-#### `enforce-gzip`
-
-Check if gzip is enable even if mangled headers.
-
 #### `forbidden-files`
 
 Check if forbidden files are well handled.
@@ -125,13 +109,6 @@ The requests should be answered with 403 errors when:
 * https://tools.ietf.org/html/rfc5785
 * https://feross.org/cmsploit/
 </details>
-
-
-#### `precompressed-files-(gzip|brotli)`
-
-Check if server use gzip/brotli precompressed-files if available.
-
-The requests should be served with a valid gzip/brotli file if a precompressed-files is available.
 
 #### `rewrites`
 
