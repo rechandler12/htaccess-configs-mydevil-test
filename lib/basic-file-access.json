@@ -8,7 +8,7 @@
       },
       "responseHeaders": {
         "Access-Control-Allow-Origin": null,
-        "Cache-Control": "max-age=2592000, no-transform",
+        "Cache-Control": "max-age=2592000",
         "Content-Security-Policy": null,
         "Referrer-Policy": null,
         "X-Content-Type-Options": "nosniff",
@@ -22,13 +22,13 @@
       {
         "target": "test.appcache",
         "responseHeaders": {
-          "Cache-Control": "max-age=0, no-transform"
+          "Cache-Control": "max-age=0"
         }
       },
       {
         "target": "test.atom",
         "responseHeaders": {
-          "Cache-Control": "max-age=3600, no-transform"
+          "Cache-Control": "max-age=3600"
         }
       },
       {
@@ -44,7 +44,7 @@
       {
         "target": "test.css",
         "responseHeaders": {
-          "Cache-Control": "max-age=31536000, no-transform"
+          "Cache-Control": "max-age=31536000"
         }
       },
       {
@@ -108,7 +108,7 @@
       {
         "target": "test.geojson",
         "responseHeaders": {
-          "Cache-Control": "max-age=0, no-transform"
+          "Cache-Control": "max-age=0"
         }
       },
       {
@@ -124,7 +124,7 @@
       {
         "target": "test.html",
         "responseHeaders": {
-          "Cache-Control": "max-age=0, no-transform",
+          "Cache-Control": "max-age=0",
           "Content-Security-Policy": true,
           "Referrer-Policy": "no-referrer-when-downgrade",
           "X-Frame-Options": "DENY",
@@ -139,14 +139,14 @@
         },
         "responseHeaders": {
           "Access-Control-Allow-Origin": "*",
-          "Cache-Control": "max-age=604800, no-transform",
+          "Cache-Control": "max-age=604800",
           "Content-Type": "image/x-icon"
         }
       },
       {
         "target": "test.ics",
         "responseHeaders": {
-          "Cache-Control": "max-age=0, no-transform"
+          "Cache-Control": "max-age=0"
         }
       },
       {
@@ -170,20 +170,20 @@
       {
         "target": "test.js",
         "responseHeaders": {
-          "Cache-Control": "max-age=31536000, no-transform",
+          "Cache-Control": "max-age=31536000",
           "Content-Type": "text/javascript; charset=utf-8"
         }
       },
       {
         "target": "test.json",
         "responseHeaders": {
-          "Cache-Control": "max-age=0, no-transform"
+          "Cache-Control": "max-age=0"
         }
       },
       {
         "target": "test.jsonld",
         "responseHeaders": {
-          "Cache-Control": "max-age=0, no-transform"
+          "Cache-Control": "max-age=0"
         }
       },
       "test.m4a",
@@ -196,19 +196,19 @@
       {
         "target": "test.map",
         "responseHeaders": {
-          "Cache-Control": "max-age=0, no-transform"
+          "Cache-Control": "max-age=0"
         }
       },
       {
         "target": "test.markdown",
         "responseHeaders": {
-          "Cache-Control": "max-age=0, no-transform"
+          "Cache-Control": "max-age=0"
         }
       },
       {
         "target": "test.md",
         "responseHeaders": {
-          "Cache-Control": "max-age=0, no-transform"
+          "Cache-Control": "max-age=0"
         }
       },
       {
@@ -220,7 +220,7 @@
       {
         "target": "test.mjs",
         "responseHeaders": {
-          "Cache-Control": "max-age=31536000, no-transform",
+          "Cache-Control": "max-age=31536000",
           "Content-Type": "text/javascript; charset=utf-8"
         }
       },
@@ -454,13 +454,13 @@
       {
         "target": "test.rdf",
         "responseHeaders": {
-          "Cache-Control": "max-age=3600, no-transform"
+          "Cache-Control": "max-age=3600"
         }
       },
       {
         "target": "test.rss",
         "responseHeaders": {
-          "Cache-Control": "max-age=3600, no-transform"
+          "Cache-Control": "max-age=3600"
         }
       },
       {
@@ -565,7 +565,7 @@
       {
         "target": "test.wasm",
         "responseHeaders": {
-          "Cache-Control": "max-age=31536000, no-transform"
+          "Cache-Control": "max-age=31536000"
         }
       },
       {
@@ -589,14 +589,14 @@
       {
         "target": "test.webapp",
         "responseHeaders": {
-          "Cache-Control": "max-age=0, no-transform"
+          "Cache-Control": "max-age=0"
         }
       },
       "test.webm",
       {
         "target": "test.webmanifest",
         "responseHeaders": {
-          "Cache-Control": "max-age=604800, no-transform"
+          "Cache-Control": "max-age=604800"
         }
       },
       {
@@ -606,7 +606,7 @@
         },
         "responseHeaders": {
           "Access-Control-Allow-Origin": "*",
-          "Cache-Control": "max-age=2592000, no-transform"
+          "Cache-Control": "max-age=2592000"
         }
       },
       {
@@ -708,7 +708,7 @@
       {
         "target": "test.xml",
         "responseHeaders": {
-          "Cache-Control": "max-age=0, no-transform"
+          "Cache-Control": "max-age=0"
         }
       },
       "test.xpi",
@@ -759,7 +759,7 @@
         "Access-Control-Allow-Origin": null,
         "X-Powered-By": null,
         "X-Content-Type-Options": "nosniff",
-        "Cache-Control": "max-age=0, no-transform",
+        "Cache-Control": "max-age=0",
         "Content-Security-Policy": true,
         "Referrer-Policy": "no-referrer-when-downgrade",
         "X-Frame-Options": "DENY",
